@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,25 +17,29 @@
   <body>
     <header class="header">
       <nav>
-        <ul>
-          <li>
+        <ul class="list-no-style nav-list-flex">
+          <li class="nav-item">
             <a href="index.html" class="webstudio-black"
               ><span class="webstudio-blue">Web</span>Studio</a
             >
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#" class="header-links">Agencja</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="portfolio.html" class="header-links">Portfolio</a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="#" class="header-links">Kontakt</a>
           </li>
         </ul>
       </nav>
-      <a href="info@devstudio.com" class="header-links">info@devstudio.com</a>
-      <span class="tel-number">+48 111 111 111</span>
+      <div class="contact-flex">
+        <a href="info@devstudio.com" class="header-links header-contact"
+          >info@devstudio.com</a
+        >
+        <span class="tel-number header-contact">+48 111 111 111</span>
+      </div>
     </header>
     <main>
       <div class="header-block">
@@ -95,7 +100,7 @@
 
       <div>
         <h2>Czym się zajmujemy</h2>
-        <ul>
+        <ul class="list-no-style">
           <li>
             <figure>
               <img
