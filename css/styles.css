@@ -153,7 +153,6 @@ ul {
 
 .footer {
   width: 1600px;
-  height: 252px;
   background-color: var(--background-block-color);
 
   font-size: 14px;
@@ -161,10 +160,17 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--logo-white);
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 60px;
 }
 
 .address {
   font-style: normal;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  line-height: 1.71;
 }
 
 .footer-text-color {
@@ -294,6 +300,7 @@ ul {
   padding-right: 215px;
   width: 1170px;
   box-sizing: content-box;
+  padding-bottom: 94px;
 }
 
 .what-we-do-list {
@@ -310,6 +317,9 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  display: block;
+  margin: 0;
 }
 
 .picture-margin {
@@ -332,5 +342,38 @@ ul {
   padding-right: 30px;
 }
 
-.what-we-do-padding-pictures:nth-of-type(3) {
+.our-team {
+  background-color: var(--button-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-team-list {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.team-card {
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+.team-card-picture {
+  width: 270px;
+  height: 260px;
+  margin: 0;
+}
+
+.addres-flex-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
