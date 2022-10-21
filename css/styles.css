@@ -15,6 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   width: 1600px;
   background: var(--backgound-color);
+  color: var(--text-normal-color);
 }
 
 a {
@@ -51,6 +52,7 @@ ul {
   color: var(--text-headers-color);
 
   display: flex;
+  justify-content: space-between;
 }
 
 .tel-number {
@@ -88,9 +90,11 @@ ul {
   border-radius: 4px;
   border-color: var(--text-hover-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
+  letter-spacing: 0.06em;
   color: var(--button-order-text);
   border-style: solid;
 }
@@ -101,9 +105,12 @@ ul {
 
 .header-block {
   width: 1600px;
-  padding: 80px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--background-block-color);
+  flex-direction: column;
+  padding-bottom: 200px;
 }
 
 .header-block-text {
@@ -114,12 +121,11 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-board-text);
-
-  /* /* padding-top: 280px; */
-  /*  padding-left: 452px; */
-
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 30px;
   width: 696px;
-  height: 120px;
+  margin: 0px;
 }
 
 .description-blocks {
@@ -136,6 +142,11 @@ ul {
 }
 
 .description-blocks-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--text-headers-color);
 }
 
@@ -260,12 +271,39 @@ ul {
   padding-right: 50px;
 }
 
-.header-contact:nth-of-type(2) {
-  padding-right: 227px;
+.header-contact2 {
   padding-top: 32px;
+  padding-right: 227px;
 }
 
 .contact-flex {
   display: flex;
-  justify-content: flex-end;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 215px 94px 215px;
+  margin: 0;
+}
+
+.what-we-do-block {
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1170px;
+}
+
+.what-we-do-list {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.what-we-do-text {
+  color: var(--text-headers-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
