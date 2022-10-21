@@ -1,5 +1,5 @@
 :root {
-  --backgound-color: #ffffff;
+  --backgound-color: white;
   --background-block-color: #2f303a;
   --text-headers-color: #212121;
   --text-normal-color: #757575;
@@ -9,6 +9,7 @@
   --button-order-text: white;
   --main-board-text: white;
   --button-color-filter: white;
+  --header-color: white;
 }
 
 body {
@@ -49,6 +50,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  background-color: var(--header-color);
 
   color: var(--text-headers-color);
 
@@ -203,6 +205,8 @@ ul {
   border-style: solid;
   height: 38px;
   transition: 0.2s;
+
+  padding: 6px 22px;
 }
 
 .button-filter-menu:hover {
@@ -273,9 +277,10 @@ ul {
   padding-top: 32px;
 }
 
-.header-contact:nth-of-type(1) {
+.header-contact {
   padding-top: 32px;
   padding-right: 50px;
+  color: var(--text-normal-color);
 }
 
 .header-contact2 {
@@ -376,4 +381,42 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 9px;
+}
+
+.menu-filter {
+  display: flex;
+  gap: 8px;
+  padding-left: 0;
+  justify-content: center;
+  padding-top: 94px;
+  margin: 0;
+}
+
+.apps-block {
+}
+
+.aplications-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: left;
+  margin: 0;
+  padding: 34px 215px 94px 215px;
+  margin: 0;
+}
+
+.app-items {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
+
+.apps-pictures {
+  margin: 0;
+  width: 370px;
+  height: 294px;
+}
+
+.apps-names {
+  padding-left: 24px;
 }
