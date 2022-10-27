@@ -17,7 +17,6 @@ body {
   width: 1600px;
   background: var(--backgound-color);
   color: var(--text-normal-color);
-  margin: auto;
 }
 
 a {
@@ -77,6 +76,8 @@ figure {
   font-size: 26px;
   line-height: 1.19;
   color: var(--logo-white);
+  display: block;
+  padding-left: 200px;
 }
 
 .webstudio-blue {
@@ -156,7 +157,6 @@ figure {
 }
 
 .footer {
-  width: 1600px;
   background-color: var(--background-block-color);
 
   font-size: 14px;
@@ -165,7 +165,7 @@ figure {
   letter-spacing: 0.03em;
   color: var(--logo-white);
   padding-top: 60px;
-  padding-left: 215px;
+  padding-left: 15px;
   padding-bottom: 60px;
 }
 
@@ -253,7 +253,6 @@ figure {
 
 .container {
   width: 1200px;
-  margin: auto;
 }
 
 .section {
@@ -268,7 +267,7 @@ figure {
 }
 
 .nav-item:nth-of-type(1) {
-  padding: 24px 93px 25px 15px;
+  padding: 24px 93px 25px 0px;
 }
 
 .nav-item:nth-of-type(2) {
@@ -293,7 +292,7 @@ figure {
 
 .header-contact2 {
   padding-top: 32px;
-  padding-right: 27px;
+  padding-right: 12px;
 }
 
 .contact-flex {
@@ -304,12 +303,19 @@ figure {
 .flex-list {
   display: flex;
   justify-content: space-between;
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0;
   gap: 30px;
   padding-bottom: unset;
+  padding-left: 0;
 }
+
+.section-main-page {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .about-us-block {
   padding: 0 15px;
 }
@@ -320,7 +326,6 @@ figure {
   justify-content: space-between;
   padding: 0;
   gap: 30px;
-  padding: 0 15px;
 }
 
 .what-we-do-text {
@@ -341,8 +346,8 @@ figure {
 
 .our-team {
   background-color: var(--button-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .our-team-list {
@@ -350,29 +355,24 @@ figure {
   margin: 0;
   justify-content: space-between;
   padding: 0;
-  padding-left: 215px;
-  padding-right: 215px;
+  gap: 30px;
 }
 
 .team-card {
-  width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-}
-
-.team-card-picture {
-  width: 270px;
-  height: 260px;
-  margin: 0;
+  padding-bottom: 30px;
+  background-color: var(--backgound-color);
 }
 
 .addres-flex-footer {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  margin: 0;
+  margin-left: 200px;
 }
 
 .menu-filter {
@@ -382,6 +382,7 @@ figure {
   justify-content: center;
   padding-top: 94px;
   margin: 0;
+  padding-bottom: 50px;
 }
 
 .aplications-list {
@@ -390,8 +391,8 @@ figure {
   gap: 30px;
   text-align: left;
   margin: 0;
-  padding: 50px 215px 94px 215px;
-  margin: 0;
+  padding: 0;
+  padding-bottom: 94px;
 }
 
 .app-items {
@@ -411,4 +412,8 @@ figure {
 .picture-as-block {
   display: block;
   margin: 0;
+}
+
+ul.aplications-list > li > figure > img {
+  display: block;
 }
