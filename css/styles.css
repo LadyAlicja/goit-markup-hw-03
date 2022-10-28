@@ -305,7 +305,7 @@ figure {
   justify-content: space-between;
   margin: 0;
   gap: 30px;
-  padding-bottom: unset;
+  padding-bottom: 0;
   padding-left: 0;
 }
 
@@ -416,4 +416,8 @@ figure {
 
 ul.aplications-list > li > figure > img {
   display: block;
+}
+
+.no-padding {
+  padding-bottom: 0;
 }
